@@ -1,0 +1,23 @@
+{
+    "name": "parentyazilim/openaci-chatbot",
+    "description": "This is a PHP class for interacting with OpenAI's API, specifically for their chatbot, search, and text-generation functionalities, as well as for creating and fine-tuning machine learning models using their API.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*"
+    },
+    "authors": [
+        {
+            "name": "Parent Yazılım",
+            "email": "info@parent.com.tr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OpenAIChatbot\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
